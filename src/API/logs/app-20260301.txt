@@ -1,0 +1,18 @@
+2026-03-01 23:44:57.804 +07:00 [INF] Now listening on: http://localhost:5000
+2026-03-01 23:44:57.888 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-03-01 23:44:57.889 +07:00 [INF] Hosting environment: Production
+2026-03-01 23:44:57.889 +07:00 [INF] Content root path: C:\Users\Admin\Documents\CODE\CleanArchDDD\src\API
+2026-03-01 23:45:01.048 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2026-03-01 23:45:01.086 +07:00 [WRN] Failed to determine the https port for redirect.
+2026-03-01 23:45:01.093 +07:00 [INF] HTTP GET / responded 404 in 8.1029 ms
+2026-03-01 23:45:01.099 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 52.0168ms
+2026-03-01 23:45:01.106 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2026-03-01 23:45:03.378 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2026-03-01 23:45:03.380 +07:00 [INF] HTTP GET / responded 404 in 0.6196 ms
+2026-03-01 23:45:03.382 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 3.7615ms
+2026-03-01 23:45:03.384 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2026-03-01 23:45:03.974 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - null null
+2026-03-01 23:45:03.976 +07:00 [INF] HTTP GET / responded 404 in 0.7606 ms
+2026-03-01 23:45:03.978 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - 404 0 null 4.1798ms
+2026-03-01 23:45:03.980 +07:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5000/, Response status code: 404
+2026-03-01 23:46:07.262 +07:00 [INF] Application is shutting down...
