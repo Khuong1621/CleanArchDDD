@@ -41,10 +41,16 @@ CleanArchDDD/
 │   │   │   └── Repositories/       ← Generic + specific repos
 │   │   └── DependencyInjection.cs
 │   │
-│   └── API/                        ← Presentation Layer
-│       ├── Controllers/            ← ProductsController, OrdersController
-│       ├── Middleware/             ← GlobalExceptionMiddleware
-│       └── Program.cs              ← DI, Swagger, Versioning, Serilog
+    ├── API/                        ← Presentation Layer (Web API)
+    │   ├── Controllers/            ← ProductsController, OrdersController
+    │   ├── Middleware/             ← GlobalExceptionMiddleware
+    │   └── Program.cs              ← DI, Swagger, Versioning, Serilog
+    │
+    └── WinFormsUI/                 ← Presentation Layer (Desktop UI - MVP Pattern)
+        ├── Views/                  ← WinForms & View Interfaces (IMainView)
+        ├── Presenters/             ← UI Logic and Event Handling (MainPresenter)
+        ├── Models/                 ← UI-specific data models
+        └── Program.cs              ← DI Container and Application Entry Point
 │
 └── tests/
     ├── Domain.Tests/
@@ -78,7 +84,11 @@ dotnet restore
 cd src/API
 dotnet run
 
-# 3. Open Swagger UI
+# 3. Run WinForms (Requires Windows)
+cd src/WinFormsUI
+dotnet run
+
+# 4. Open Swagger UI
 # http://localhost:5000 (Swagger loads at root)
 ```
 
